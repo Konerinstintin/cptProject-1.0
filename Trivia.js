@@ -23,6 +23,9 @@ function result() {
     } else if (desision <= 100) {
 
         document.getElementById("result").innerHTML = ("Congradulations you have scored more than 80% on the quiz, you can now continue to the next online quiz<br><br>https://www.google.ca");
+
+    } else if (desision > 100) {
+        document.getElementById("result").innerHTML = ("Error press reset");
     } else {
         document.getElementById("result").innerHTML = ("You did not get anything right please press reset");
     }
